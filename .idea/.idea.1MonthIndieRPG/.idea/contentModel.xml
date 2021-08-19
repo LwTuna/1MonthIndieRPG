@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Jonas\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jonas\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_1MonthIndieRPG.-1465326639.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jonas\Desktop\UnityProject21\1MonthIndieRPG" t="IncludeRecursive">
+      <e p="1MonthIndieRPG.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Direction.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="EntityComponents" t="Include">
+            <e p="Health.cs" t="Include" />
+          </e>
+        </e>
+        <e p="IdleBehaviour.cs" t="Include" />
+        <e p="Items" t="Include">
+          <e p="Crafting" t="Include">
+            <e p="CraftingManager.cs" t="Include" />
+            <e p="Recipe.cs" t="Include" />
+          </e>
+          <e p="InWorldItem.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
+          <e p="ItemComponents" t="Include">
+            <e p="AxeComponent.cs" t="Include" />
+            <e p="CooldownComponent.cs" t="Include" />
+            <e p="ItemComponent.cs" t="Include" />
+            <e p="PickaxeComponent.cs" t="Include" />
+            <e p="SwordComponent.cs" t="Include" />
+          </e>
+          <e p="ItemDatabase.cs" t="Include" />
+          <e p="ItemDrop.cs" t="Include" />
+        </e>
+        <e p="Miscs" t="Include">
+          <e p="Interactables" t="Include">
+            <e p="Bush.cs" t="Include" />
+            <e p="Choppable.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
+            <e p="Mineable.cs" t="Include" />
+            <e p="SwordHitable.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Pathfinding.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Inventory.cs" t="Include" />
+          <e p="InventoryUpdateHandler.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerInventory.cs" t="Include" />
+          <e p="World" t="Include">
+            <e p="DelveRoomGenerator.cs" t="Include" />
+            <e p="IslandGenerator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Slime.cs" t="Include" />
+        <e p="Ui" t="Include">
+          <e p="CraftingUiManager.cs" t="Include" />
+          <e p="InventoryManager.cs" t="Include" />
+          <e p="OpenableUi.cs" t="Include" />
+          <e p="UiManager.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

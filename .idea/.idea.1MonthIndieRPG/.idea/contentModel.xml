@@ -13,6 +13,7 @@
             <e p="Health.cs" t="Include" />
           </e>
         </e>
+        <e p="GameController.cs" t="Include" />
         <e p="IdleBehaviour.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Crafting" t="Include">
@@ -47,6 +48,7 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerInventory.cs" t="Include" />
           <e p="World" t="Include">
+            <e p="DelveManager.cs" t="Include" />
             <e p="DelveRoomGenerator.cs" t="Include" />
             <e p="IslandGenerator.cs" t="Include" />
           </e>

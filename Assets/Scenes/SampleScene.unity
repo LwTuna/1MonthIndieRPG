@@ -208,7 +208,7 @@ Transform:
   - {fileID: 1547969561}
   - {fileID: 1151893988}
   - {fileID: 376550839}
-  m_Father: {fileID: 100364881}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &76486916
@@ -383,12 +383,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 76486915}
   - {fileID: 435805558}
   - {fileID: 1157932909}
   - {fileID: 591810048}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &100364882
 MonoBehaviour:
@@ -543,7 +542,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376550838
 GameObject:
@@ -618,7 +617,7 @@ Transform:
   - {fileID: 1929231226}
   - {fileID: 606545430}
   m_Father: {fileID: 100364881}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &447441010
 GameObject:
@@ -911,7 +910,7 @@ Transform:
   m_Children:
   - {fileID: 1056682513}
   m_Father: {fileID: 100364881}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &606545429
 GameObject:
@@ -6372,8 +6371,8 @@ RectTransform:
   m_Children:
   - {fileID: 1012642801}
   - {fileID: 60253790}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1825097741}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6895,7 +6894,7 @@ Transform:
   - {fileID: 2185271048290504274}
   - {fileID: 891026919}
   m_Father: {fileID: 100364881}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546110122
 GameObject:
@@ -7179,6 +7178,51 @@ RectTransform:
   m_AnchoredPosition: {x: -119.44, y: 0}
   m_SizeDelta: {x: -238.87, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1825097739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825097741}
+  - component: {fileID: 1825097740}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1825097740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825097739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48bdeaa50d871dd45bd7c7ce03db8fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1825097741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825097739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 500, y: 500.69, z: -8.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 714990441}
+  - {fileID: 2078951681}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862517627
 GameObject:
   m_ObjectHideFlags: 0
@@ -11160,12 +11204,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078951679}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -500, y: -500.69, z: 8.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1862517628}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1825097741}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087818228
@@ -11451,6 +11495,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1157932909}
     m_Modifications:
+    - target: {fileID: 5448454786960312337, guid: cceddebccdaad1a45835f329fcd13123, type: 3}
+      propertyPath: _itemDrops.Array.data[0]._type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5448454786960312342, guid: cceddebccdaad1a45835f329fcd13123, type: 3}
       propertyPath: m_Name
       value: Rock

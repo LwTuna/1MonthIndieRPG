@@ -16,16 +16,14 @@ public class DelveRoomGenerator : MonoBehaviour
     public Tilemap walkableTilemap,solidTilemap;
 
     public TileBase[] tiles;
+
+
+
+    public List<GameObject> stones;
     // Start is called before the first frame update
-    private void Start()
-    {
-        Generate(128, 128,4,0.04285f);
-        
+    
 
-        
-    }
-
-    private void Generate(int width, int height, int octaveCount, float persistence)
+    public void Generate(int width, int height, int octaveCount, float persistence)
     {
         walkableTilemap.ClearAllTiles();
         solidTilemap.ClearAllTiles();
@@ -38,20 +36,35 @@ public class DelveRoomGenerator : MonoBehaviour
             }
         }
 
+        var largestRoom = Pathfinding.GetLargestRoom(chunkData,0);
+
+        var count = largestRoom.Count / 20;
+        for (var i = 0; i < count; i++)
+        {
+            var p = GetRandomPositionInRoom(largestRoom);
+            
+            Instantiate(stones[Random.Range(0, stones.Count)],new Vector3(p.x +0.5f, p.y+0.5f, 0),Quaternion.identity);
+            largestRoom.Remove(p);
+
+        }
     }
 
-    
-    
-    private Vector2 FindRandomSpotOnMap(int[,] map)
+
+   
+
+    private static Vector2 GetRandomPositionInRoom(List<Vector2> room)
     {
-        var tileList = Pathfinding.GetLargestRoom(map, 0);
-        return tileList[Random.Range(0,tileList.Count-1)];
+
+        var index = Random.Range(0, room.Count);
+        return room[index];
     }
+    
+    
+    
     
     private int[,] CreateChunkData(int w, int h,int octaveCount,float persistance)
     {
         var noise = MaskIsland(GeneratePerlinNoise(GenerateWithNoise(w, h), octaveCount, persistance));
-        Debug.Log(octaveCount+"/"+persistance);
         var tileData = new int[w, h];
         for (var x = 0; x < noise.GetLength(0); x++)
         {

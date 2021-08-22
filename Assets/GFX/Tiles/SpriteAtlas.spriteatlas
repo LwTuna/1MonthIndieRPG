@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 81efc053939a17c479301ac111a261c9, type: 3}
-    totalSpriteSurfaceArea: 447488
+    totalSpriteSurfaceArea: 456704
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -116,11 +116,20 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fa469a87973fce54a8e027241f037ade, type: 3}
   - {fileID: 21300000, guid: 806d7548da009644d9a874c1ea74b7bc, type: 3}
   - {fileID: 21300000, guid: 43791f3c6ca61b54393b8a766b72d139, type: 3}
+  - {fileID: -6017092528987982444, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: 8447263708603345861, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: -8811113036543827653, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: 9002620858183812175, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: -5247092446338092663, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: 3445910035351170775, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: -8901590981438018623, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: 8671351589016534120, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: 6600722327966685224, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: 5770958956045166959, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: 8273318286620358799, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: -9177418277584700315, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: 173538500886388945, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
+  - {fileID: -4076281113925471536, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: -3333249045553888777, guid: fc77d71ff67e30447a5dd9587efaf36d, type: 3}
   - {fileID: 5793479280948049655, guid: fc77d71ff67e30447a5dd9587efaf36d, type: 3}
   - {fileID: -4472081488600128898, guid: fc77d71ff67e30447a5dd9587efaf36d, type: 3}
@@ -192,11 +201,20 @@ SpriteAtlas:
   - missing
   - male_hurt
   - uwu
+  - misc_20
+  - misc_21
+  - misc_19
+  - misc_18
+  - misc_15
   - misc_2
+  - misc_14
   - misc_3
+  - misc_17
   - misc_0
+  - misc_16
   - misc_1
   - misc_4
+  - misc_5
   - entities_3
   - entities_2
   - entities_1

@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     {
         
         _animator = GetComponent<Animator>();
+        DontDestroyOnLoad(this);
     }
 
     private void Start()
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _direction = Direction.South;
         _inventory = new PlayerInventory(uiManager);
-        _inventory.SetHotBarItem(ItemDatabase.CreateItem(ItemDatabase.ItemType.WoodenAxe,1),0);
+        _inventory.SetHotBarItem(ItemDatabase.CreateItem(ItemDatabase.ItemType.WoodenPickaxe,1),0);
         health = maxHealth;
 
     }

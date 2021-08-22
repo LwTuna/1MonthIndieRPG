@@ -4,19 +4,56 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384fa9b1-7fb3-4da0-9deb-ba08f8a54abc" name="Default Changelist" comment="" />
+    <list default="true" id="384fa9b1-7fb3-4da0-9deb-ba08f8a54abc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Basalt.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Basalt.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Breccia.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Breccia.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Gneiss.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Gneiss.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Granite.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Granite.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Limestone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Limestone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Marble.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Marble.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Obsidian.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Obsidian.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Slate.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Miscs/Prefabs/Slate.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/World/DelveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1MonthIndieRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GFX/Tiles/SpriteAtlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GFX/Tiles/SpriteAtlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.aseprite" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.aseprite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GFX/Tiles/misc.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pathfinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pathfinding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DelveScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DelveScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/World/DelveRoomGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/World/DelveRoomGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Items/InWorldItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/d9/f48364a4/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AF207EC-D210-4462-8913-F7CC589986AE/95/a91f506b/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C9FC2D-1BE0-48CF-A2DD-679DEAA7D4F7/d7/3d3ce042/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Miscs/Interactables/Bush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/DelveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ui/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/DelveRoomGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Items/ItemComponents/CooldownComponent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +69,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/13/3db445fd/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Items/ItemComponents/AxeComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Miscs/Interactables/Mineable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/72/f3ce6767/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Miscs/Interactables/SwordHitable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/IslandGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8462C93B-00B5-4616-9C50-6EB8281FD255/8f/d9b99e46/Random.cs" root0="SKIP_HIGHLIGHTING" />
@@ -42,6 +80,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Items/ItemDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Items/ItemDrop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Items/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE28439F-7B01-4FC3-8435-D198C0640FF7/f9/bca40586/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IdleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Miscs/Interactables/Choppable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUpdateHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/World/IInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Items/ItemStack.cs" />
         <option value="$PROJECT_DIR$/Assets/Items/UseableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/Interactables/IInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/ItemSpawner.cs" />
@@ -93,23 +130,33 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Ui/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/WorldGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/IslandGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Pathfinding.cs" />
+        <option value="$PROJECT_DIR$/Assets/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Portal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/InDelvePortal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/DelveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/DelveRoomGenerator.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1w68pxKZZY0cU0Vif55CjiFLbXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -165,6 +212,10 @@
       <workItem from="1629051451588" duration="2192000" />
       <workItem from="1629055795959" duration="2430000" />
       <workItem from="1629394577852" duration="9469000" />
+      <workItem from="1629410925169" duration="340000" />
+      <workItem from="1629572156118" duration="3442000" />
+      <workItem from="1629625871060" duration="7000" />
+      <workItem from="1629626102352" duration="12370000" />
     </task>
     <servers />
   </component>
@@ -173,6 +224,20 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-1522" y="562" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1628984245507">
       <screen x="-2560" y="0" width="2560" height="1400" />

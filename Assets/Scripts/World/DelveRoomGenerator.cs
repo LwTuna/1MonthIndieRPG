@@ -42,11 +42,10 @@ public class DelveRoomGenerator : MonoBehaviour
         for (var i = 0; i < count; i++)
         {
             var p = GetRandomPositionInRoom(largestRoom);
-            
             Instantiate(stones[Random.Range(0, stones.Count)],new Vector3(p.x +0.5f, p.y+0.5f, 0),Quaternion.identity);
             largestRoom.Remove(p);
-
         }
+        
     }
 
 
@@ -54,7 +53,6 @@ public class DelveRoomGenerator : MonoBehaviour
 
     private static Vector2 GetRandomPositionInRoom(List<Vector2> room)
     {
-
         var index = Random.Range(0, room.Count);
         return room[index];
     }

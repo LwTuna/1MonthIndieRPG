@@ -203,8 +203,6 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: d6df2a147475cb648a23fe5dafb625ca, type: 2}
   - {fileID: 11400000, guid: e3183d041223dae428df686dab299595, type: 2}
-  portalPrefab: {fileID: 6948385793269811178, guid: 4630bddcbb1792d49be8dd14c1e61080, type: 3}
-  leavePortalPrefab: {fileID: 7275449657360969448, guid: dc5f296496a2a174a922b305b49546e5, type: 3}
   stones:
   - {fileID: 8305594059851181155, guid: 04cada2ce5cfac44593b97cd2d7a1759, type: 3}
   - {fileID: 2427348031293421319, guid: 063d9b1a915f276438c62ebba1fbbbc6, type: 3}

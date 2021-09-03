@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
 
     public Sprite idleTop, idleLeft, idleRight, idleDown;
-    
+
     public PlayerInventory _inventory;
 
     public UiManager uiManager;
@@ -35,8 +35,8 @@ public class PlayerController : MonoBehaviour
 
     public float maxHealth = 10f;
     private float health;
-    
-   
+
+    private static bool _exists = false;
 
     private Direction _direction;
     private static readonly int MoveX = Animator.StringToHash("moveX");
@@ -44,11 +44,22 @@ public class PlayerController : MonoBehaviour
     private static readonly int Moving = Animator.StringToHash("moving");
 
     private Direction gizmoDirection;
+
     private void Awake()
     {
-        
-        _animator = GetComponent<Animator>();
+        if (_exists)
+        {
+            Destroy(this);
+            return;
+        }
+
+        _exists = true;
         DontDestroyOnLoad(this);
+
+        _animator = GetComponent<Animator>();
+        _inventory = new PlayerInventory(uiManager);
+        _inventory.SetHotBarItem(ItemDatabase.CreateItem(ItemDatabase.ItemType.WoodenPickaxe, 1), 0);
+        _inventory.SetHotBarItem(ItemDatabase.CreateItem(ItemDatabase.ItemType.WoodenAxe, 1), 1);
     }
 
     private void Start()
@@ -56,10 +67,9 @@ public class PlayerController : MonoBehaviour
         _camera = Camera.main;
         _rb = GetComponent<Rigidbody2D>();
         _direction = Direction.South;
-        _inventory = new PlayerInventory(uiManager);
-        _inventory.SetHotBarItem(ItemDatabase.CreateItem(ItemDatabase.ItemType.WoodenPickaxe,1),0);
+        
+        
         health = maxHealth;
-
     }
 
     void Update()
@@ -72,13 +82,13 @@ public class PlayerController : MonoBehaviour
         if (_movement.y < 0f) _direction = Direction.South;
         if (_movement.y > 0f) _direction = Direction.North;
 
-        
-        _animator.SetFloat(MoveX,_movement.x);
-        _animator.SetFloat(MoveY,_movement.y);
+
+        _animator.SetFloat(MoveX, _movement.x);
+        _animator.SetFloat(MoveY, _movement.y);
         bool moving = Math.Abs(_movement.x) > 0.01f || Math.Abs(_movement.y) > 0.01f;
         _animator.SetBool(Moving, moving);
-        if(moving) GetComponent<Animator>().enabled = true;
-        
+        if (moving) GetComponent<Animator>().enabled = true;
+
         CheckInteract();
         UpdateWhileHotbarSelected();
     }
@@ -91,7 +101,6 @@ public class PlayerController : MonoBehaviour
                 GetDirection(Camera.main.ScreenToWorldPoint(Input.mousePosition)), currentItem);
     }
 
-    
 
     public void SetIdleSprite()
     {
@@ -105,10 +114,10 @@ public class PlayerController : MonoBehaviour
         };
         GetComponent<Animator>().enabled = false;
     }
-    
+
     private void FixedUpdate()
     {
-        _rb.MovePosition(_rb.position+_movement * (movementSpeed * Time.fixedDeltaTime));
+        _rb.MovePosition(_rb.position + _movement * (movementSpeed * Time.fixedDeltaTime));
     }
 
 
@@ -125,7 +134,7 @@ public class PlayerController : MonoBehaviour
         if (currentItem != null)
         {
             Vector2 mouseInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            currentItem.OnUse(this,mouseInWorld,GetDirection(mouseInWorld),currentItem,interactLayer);
+            currentItem.OnUse(this, mouseInWorld, GetDirection(mouseInWorld), currentItem, interactLayer);
             gizmoDirection = GetDirection(mouseInWorld);
         }
     }
@@ -133,7 +142,7 @@ public class PlayerController : MonoBehaviour
     private Direction GetDirection(Vector2 mouseToWorld)
     {
         var position = transform.position;
-        var distance = mouseToWorld - new Vector2(position.x,position.y);
+        var distance = mouseToWorld - new Vector2(position.x, position.y);
         if (Math.Abs(distance.x) > Math.Abs(distance.y))
         {
             return distance.x > 0 ? Direction.East : Direction.West;
@@ -144,14 +153,12 @@ public class PlayerController : MonoBehaviour
 
     private void InteractWithoutItem()
     {
-        
         var collisions = GetDirection(Camera.main.ScreenToWorldPoint(Input.mousePosition)) switch
         {
-            
-            Direction.North => Physics2D.OverlapCircleAll(interactionNorth.position, interactRange,interactLayer),
-            Direction.South => Physics2D.OverlapCircleAll(interactionSouth.position, interactRange,interactLayer),
-            Direction.East => Physics2D.OverlapCircleAll(interactionEast.position, interactRange,interactLayer),
-            Direction.West => Physics2D.OverlapCircleAll(interactionWest.position, interactRange,interactLayer),
+            Direction.North => Physics2D.OverlapCircleAll(interactionNorth.position, interactRange, interactLayer),
+            Direction.South => Physics2D.OverlapCircleAll(interactionSouth.position, interactRange, interactLayer),
+            Direction.East => Physics2D.OverlapCircleAll(interactionEast.position, interactRange, interactLayer),
+            Direction.West => Physics2D.OverlapCircleAll(interactionWest.position, interactRange, interactLayer),
             _ => new Collider2D[0]
         };
         foreach (var collider in collisions)
@@ -168,26 +175,25 @@ public class PlayerController : MonoBehaviour
         switch (gizmoDirection)
         {
             case Direction.North:
-                Gizmos.DrawSphere(interactionNorth.position,interactRange);
+                Gizmos.DrawSphere(interactionNorth.position, interactRange);
                 break;
             case Direction.South:
-                Gizmos.DrawSphere(interactionSouth.position,interactRange);
+                Gizmos.DrawSphere(interactionSouth.position, interactRange);
                 break;
             case Direction.East:
-                Gizmos.DrawSphere(interactionEast.position,interactRange);
+                Gizmos.DrawSphere(interactionEast.position, interactRange);
                 break;
             case Direction.West:
-                Gizmos.DrawSphere(interactionWest.position,interactRange);
+                Gizmos.DrawSphere(interactionWest.position, interactRange);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
     }
-    
 
-    public void Hurt(float damageToPlayer,Transform other)
+
+    public void Hurt(float damageToPlayer, Transform other)
     {
-        
         health -= damageToPlayer;
         if (health <= 0)
         {

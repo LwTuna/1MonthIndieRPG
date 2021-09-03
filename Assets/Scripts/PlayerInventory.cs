@@ -23,7 +23,7 @@ public class PlayerInventory : Inventory
 
    public void SetHotBarItem(Item item, int slot)
    {
-      if(slot<0 || slot>9) throw new ArgumentException("Slot can only be between 0 and 8(including) slot:"+slot);
+      if(slot<0 || slot>=9) throw new ArgumentException("Slot can only be between 0 and 8(including) slot:"+slot);
       _hotbar[slot] = item;
       OnInventoryUpdate();
    }
@@ -33,8 +33,29 @@ public class PlayerInventory : Inventory
       return _hotbar[_currentItem];
    }
 
-  
+   public int GetCurrentHotbarSlot()
+   {
+      return _currentItem;
+   }
+
+   public void SetCurrentHotbarSlot(int slot)
+   {
+      _currentItem = slot;
+      if (_currentItem >= 9) _currentItem = 0;
+      if (_currentItem < 0) _currentItem = 8;
+   }
    
+   public void ScrollHotbar(int change)
+   {
+      _currentItem += change;
+      if (_currentItem >= 9) _currentItem = 0;
+      if (_currentItem < 0) _currentItem = 8;
+   }
+   
+   public Item[] GetHotBarItems()
+   {
+      return _hotbar;
+   }
 
    public override void RemoveItem(ItemDatabase.ItemType materialType, int materialAmount)
    {

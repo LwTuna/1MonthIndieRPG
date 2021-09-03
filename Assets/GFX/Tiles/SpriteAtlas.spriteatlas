@@ -39,12 +39,12 @@ SpriteAtlas:
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
-      enableTightPacking: 1
+      enableTightPacking: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 81efc053939a17c479301ac111a261c9, type: 3}
-    totalSpriteSurfaceArea: 456704
+    totalSpriteSurfaceArea: 467968
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -100,11 +100,31 @@ SpriteAtlas:
   - {fileID: -8667466294985060184, guid: 1bdde385d224df544bc92b728bef99eb, type: 3}
   - {fileID: 5281997702118322174, guid: 1bdde385d224df544bc92b728bef99eb, type: 3}
   - {fileID: 21300000, guid: b3eca7c5a25ea5d47bfbfaefee0b2153, type: 3}
+  - {fileID: -7052531943125621977, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -6848179138509233854, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -8473965523027447877, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -5366053918321049083, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 4410115334632175332, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 8189123915696156741, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 5580018608728203199, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 49598692365941603, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 7863668928567222943, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 57701541896607731, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -4721301054069617602, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -4590312153206918926, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 6568244172134801747, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 8813815085496886684, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 8402464592913180643, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: -4672163745296329812, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -6835276744072785760, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -6323610611032215402, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 5560954434011818755, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -3254853038742249471, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: 61205593611490087, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 4239528737361974724, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 1639214462598301798, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: -6614373457484812694, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
+  - {fileID: -3246416448344134604, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 349823833441268365, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 1807125615787039003, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: -4202638810691693305, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
@@ -115,7 +135,6 @@ SpriteAtlas:
   - {fileID: -7708644975649761358, guid: f9d75e0788b70164f921075a8ab1e448, type: 3}
   - {fileID: 21300000, guid: fa469a87973fce54a8e027241f037ade, type: 3}
   - {fileID: 21300000, guid: 806d7548da009644d9a874c1ea74b7bc, type: 3}
-  - {fileID: 21300000, guid: 43791f3c6ca61b54393b8a766b72d139, type: 3}
   - {fileID: -6017092528987982444, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: 8447263708603345861, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
   - {fileID: -8811113036543827653, guid: c1945f4df7612624db7bbca86867fa09, type: 3}
@@ -185,11 +204,31 @@ SpriteAtlas:
   - tree_0
   - tree_1
   - inventoryPanel
+  - tiles_30
+  - tiles_31
+  - tiles_32
+  - tiles_52
+  - tiles_33
+  - tiles_34
+  - tiles_50
+  - tiles_35
+  - tiles_51
+  - tiles_36
+  - tiles_44
+  - tiles_37
+  - tiles_38
+  - tiles_39
+  - tiles_41
   - tiles_12
+  - tiles_40
+  - tiles_43
   - tiles_10
+  - tiles_42
+  - tiles_29
   - tiles_11
   - tiles_3
   - tiles_2
+  - tiles_49
   - tiles_1
   - tiles_0
   - tiles_7
@@ -200,7 +239,6 @@ SpriteAtlas:
   - tiles_8
   - missing
   - male_hurt
-  - uwu
   - misc_20
   - misc_21
   - misc_19

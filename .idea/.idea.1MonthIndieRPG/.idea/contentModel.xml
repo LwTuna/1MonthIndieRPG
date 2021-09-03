@@ -14,6 +14,7 @@
           </e>
         </e>
         <e p="GameController.cs" t="Include" />
+        <e p="HotbarUi.cs" t="Include" />
         <e p="IdleBehaviour.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Crafting" t="Include">
@@ -36,6 +37,7 @@
           <e p="Interactables" t="Include">
             <e p="Bush.cs" t="Include" />
             <e p="Choppable.cs" t="Include" />
+            <e p="GroundPickupable.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
             <e p="Mineable.cs" t="Include" />
             <e p="SwordHitable.cs" t="Include" />
@@ -54,6 +56,15 @@
           </e>
         </e>
         <e p="Slime.cs" t="Include" />
+        <e p="Tiles" t="Include">
+          <e p="TileTransitions" t="Include">
+            <e p="AdjacentTile.cs" t="Include" />
+            <e p="TileTransitionContainer.cs" t="Include" />
+            <e p="TileTransitionData.cs" t="Include" />
+            <e p="TileTransitionDictonary.cs" t="Include" />
+            <e p="TileTransitionManager.cs" t="Include" />
+          </e>
+        </e>
         <e p="Ui" t="Include">
           <e p="CraftingUiManager.cs" t="Include" />
           <e p="InventoryManager.cs" t="Include" />

@@ -23,6 +23,7 @@ public class IslandGenerator : MonoBehaviour
             }
         }
         
+        GetComponent<TileTransitionManager>().ApplyBitmask(TileTransitionManager.CreateBitmask(chunkData),walkableTilemap,solidTilemap);
     }
 
     private TileBase GetTile(int i)
